@@ -1,0 +1,145 @@
+@media screen and (max-width: 767px) {
+
+    /* header*/
+
+    header {
+        height: unset;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header-logo {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+
+    .nav {
+        height: 50px;
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .menuItem {
+        width: 100%;
+        height: unset;
+        border-top: unset;
+        border-bottom: 2px solid #FFF;
+    }
+
+    .menuItem:hover {
+        border-top: unset;
+        border-bottom: 2px solid #0065FC;
+
+    }
+
+    /* mains */
+
+    .section1 {
+        gap: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .containerSearch {
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .searchButton {
+        display: none;
+    }
+
+    .searchButtonLoupe {
+        display: flex;
+
+    }
+
+    .blocFiltre {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filtres {
+        align-items: center;
+    }
+
+    .filtre {
+        width: 160px;
+        font-size: 11px;
+    }
+
+    .section2 {
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-direction: column;
+    }
+
+
+    .conteneurhébergement {
+        order: 2;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-color: transparent;
+        border-radius: 0px;
+        padding: 0px;
+    }
+
+    .conteneurpopulaire {
+        display: flex;
+        order: 1;
+        gap: 25px;
+        background-color: #F2F2F2;
+        border-radius: 0px;
+        padding: 40px;
+    }
+
+    .cardsHeberg {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .cardHeberg {
+        width: 90%;
+    }
+
+    .detailHeberg {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*Activités*/
+
+    .section3 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .conteneurActi {
+        height: 935px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .cardActi {
+        width: 90%;
+        height: 190px;
+        flex-direction: column;
+    }
+
+    /*Footer*/
+
+    footer {
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-direction: column;
+        align-items: unset;
+        gap: 40px;
+
+    }
+}
